@@ -16,7 +16,7 @@ import io.cucumber.java.en.When;
 public class login {
 	WebDriver driver;
 	
-	@Given("user starts chrome browser")
+	@Given("user start chrome browser")
 	public void user_starts_browser() {
 		 driver=new ChromeDriver();
 		
